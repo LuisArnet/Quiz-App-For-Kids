@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainScreenViewController">
+            <connections>
+                <outlet property="imageDonkey" destination="9Sf-04-kGL" id="SqA-n8-tMX"/>
+                <outlet property="imagePooh" destination="aTK-wa-g8c" id="c04-Nr-8Lt"/>
+                <outlet property="inputImage" destination="dfp-8c-kJX" id="vFS-Fj-Uw9"/>
+                <outlet property="nameTextField" destination="7tv-gq-5GX" id="Nrk-ip-2d2"/>
+                <outlet property="okBtn" destination="FL9-sZ-cfK" id="8WV-eX-VWf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="A4b-oE-JnH">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pooh.png" translatesAutoresizingMaskIntoConstraints="NO" id="aTK-wa-g8c">
+                    <rect key="frame" x="65" y="293" width="261" height="352"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="donkey.png" translatesAutoresizingMaskIntoConstraints="NO" id="9Sf-04-kGL">
+                    <rect key="frame" x="455" y="50" width="235" height="301"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="inputName.png" translatesAutoresizingMaskIntoConstraints="NO" id="dfp-8c-kJX">
+                    <rect key="frame" x="416" y="352" width="274" height="150"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FL9-sZ-cfK">
+                    <rect key="frame" x="518" y="453" width="70" height="40"/>
+                    <state key="normal" image="ok_one.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" image="ok_two.png"/>
+                    <connections>
+                        <action selector="okActionClicked:" destination="-1" eventType="touchUpInside" id="9Q7-qh-DB6"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7tv-gq-5GX">
+                    <rect key="frame" x="441" y="413" width="222" height="30"/>
+                    <color key="textColor" red="0.34509803921568627" green="0.66274509803921566" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <action selector="nameTextFieldBegin:" destination="-1" eventType="editingDidBegin" id="WaD-Gx-rfC"/>
+                        <action selector="nameTextFieldEnd:" destination="-1" eventType="editingDidEnd" id="wFX-K3-KhS"/>
+                    </connections>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+            <point key="canvasLocation" x="642" y="263"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="background.png" width="2048" height="1536"/>
+        <image name="donkey.png" width="485" height="769"/>
+        <image name="inputName.png" width="400" height="200"/>
+        <image name="ok_one.png" width="70" height="50"/>
+        <image name="ok_two.png" width="70" height="50"/>
+        <image name="pooh.png" width="947" height="1332"/>
+    </resources>
+</document>

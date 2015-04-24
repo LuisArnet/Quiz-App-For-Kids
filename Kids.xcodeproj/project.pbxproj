@@ -7,26 +7,111 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84A8892C1ADB6C8C00E36C2D /* correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84A889281ADB6C8C00E36C2D /* correct.wav */; };
+		84A8892D1ADB6C8C00E36C2D /* didit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A889291ADB6C8C00E36C2D /* didit.mp3 */; };
+		84A8892E1ADB6C8C00E36C2D /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A8892A1ADB6C8C00E36C2D /* wrong.mp3 */; };
+		84A8892F1ADB6C8C00E36C2D /* yes!.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84A8892B1ADB6C8C00E36C2D /* yes!.wav */; };
+		84A889311ADB6D3C00E36C2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A889301ADB6D3C00E36C2D /* UIKit.framework */; };
+		84A889331ADB6D4200E36C2D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A889321ADB6D4200E36C2D /* AVFoundation.framework */; };
+		84A889351ADB6D4600E36C2D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A889341ADB6D4600E36C2D /* AudioToolbox.framework */; };
 		EB7642DE1A9C1EEC0013CDB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7642DD1A9C1EEC0013CDB8 /* main.m */; };
 		EB7642E11A9C1EEC0013CDB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7642E01A9C1EEC0013CDB8 /* AppDelegate.m */; };
 		EB7642E41A9C1EEC0013CDB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7642E31A9C1EEC0013CDB8 /* ViewController.m */; };
 		EB7642E71A9C1EEC0013CDB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7642E51A9C1EEC0013CDB8 /* Main.storyboard */; };
 		EB7642E91A9C1EEC0013CDB8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7642E81A9C1EEC0013CDB8 /* Images.xcassets */; };
 		EB7642EC1A9C1EEC0013CDB8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB7642EA1A9C1EEC0013CDB8 /* LaunchScreen.xib */; };
-		EB7642F81A9C1EED0013CDB8 /* KidsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7642F71A9C1EED0013CDB8 /* KidsTests.m */; };
+		EB7643051A9C1F220013CDB8 /* MainScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7643031A9C1F220013CDB8 /* MainScreenViewController.m */; };
+		EB7643061A9C1F220013CDB8 /* MainScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB7643041A9C1F220013CDB8 /* MainScreenViewController.xib */; };
+		EB7643091A9C1FE40013CDB8 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = EB7643081A9C1FE40013CDB8 /* background.png */; };
+		EB76430C1A9C23BF0013CDB8 /* pooh.png in Resources */ = {isa = PBXBuildFile; fileRef = EB76430B1A9C23BF0013CDB8 /* pooh.png */; };
+		EB76430E1A9C243C0013CDB8 /* donkey.png in Resources */ = {isa = PBXBuildFile; fileRef = EB76430D1A9C243C0013CDB8 /* donkey.png */; };
+		EB7643101A9C28BC0013CDB8 /* inputName.png in Resources */ = {isa = PBXBuildFile; fileRef = EB76430F1A9C28BC0013CDB8 /* inputName.png */; };
+		EB7643121A9C61A90013CDB8 /* ok_one.png in Resources */ = {isa = PBXBuildFile; fileRef = EB7643111A9C61A90013CDB8 /* ok_one.png */; };
+		EB7643141A9C625A0013CDB8 /* ok_two.png in Resources */ = {isa = PBXBuildFile; fileRef = EB7643131A9C625A0013CDB8 /* ok_two.png */; };
+		EB7643191A9C6B1E0013CDB8 /* MainSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7643171A9C6B1E0013CDB8 /* MainSelectViewController.m */; };
+		EB76431A1A9C6B1E0013CDB8 /* MainSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB7643181A9C6B1E0013CDB8 /* MainSelectViewController.xib */; };
+		EB76431D1A9C702C0013CDB8 /* back_pooh_two.png in Resources */ = {isa = PBXBuildFile; fileRef = EB76431B1A9C702C0013CDB8 /* back_pooh_two.png */; };
+		EB76431E1A9C702C0013CDB8 /* back_pooh.png in Resources */ = {isa = PBXBuildFile; fileRef = EB76431C1A9C702C0013CDB8 /* back_pooh.png */; };
+		EB7643201A9C82630013CDB8 /* learnBtn_white.png in Resources */ = {isa = PBXBuildFile; fileRef = EB76431F1A9C82630013CDB8 /* learnBtn_white.png */; };
+		EB7643221A9C84150013CDB8 /* learnBtn_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = EB7643211A9C84150013CDB8 /* learnBtn_gray.png */; };
+		EB7643251A9C84E80013CDB8 /* quizBtn_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = EB7643231A9C84E80013CDB8 /* quizBtn_gray.png */; };
+		EB7643261A9C84E80013CDB8 /* quizBtn_white.png in Resources */ = {isa = PBXBuildFile; fileRef = EB7643241A9C84E80013CDB8 /* quizBtn_white.png */; };
+		EB76432B1A9C86E00013CDB8 /* LearnSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7643291A9C86E00013CDB8 /* LearnSelectViewController.m */; };
+		EB76432C1A9C86E00013CDB8 /* LearnSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB76432A1A9C86E00013CDB8 /* LearnSelectViewController.xib */; };
+		EB76432E1A9C89730013CDB8 /* learn_title.png in Resources */ = {isa = PBXBuildFile; fileRef = EB76432D1A9C89730013CDB8 /* learn_title.png */; };
+		EB7643341A9CA3ED0013CDB8 /* multiDigit_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = EB76432F1A9CA3ED0013CDB8 /* multiDigit_gray.png */; };
+		EB7643351A9CA3ED0013CDB8 /* mutilDigit_white.png in Resources */ = {isa = PBXBuildFile; fileRef = EB7643301A9CA3ED0013CDB8 /* mutilDigit_white.png */; };
+		EB7643361A9CA3ED0013CDB8 /* quiz_title.png in Resources */ = {isa = PBXBuildFile; fileRef = EB7643311A9CA3ED0013CDB8 /* quiz_title.png */; };
+		EB7643371A9CA3ED0013CDB8 /* singleDigit_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = EB7643321A9CA3ED0013CDB8 /* singleDigit_gray.png */; };
+		EB7643381A9CA3ED0013CDB8 /* singleDigit_white.png in Resources */ = {isa = PBXBuildFile; fileRef = EB7643331A9CA3ED0013CDB8 /* singleDigit_white.png */; };
+		EB76433D1A9CAD650013CDB8 /* SingleDigitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB76433B1A9CAD650013CDB8 /* SingleDigitViewController.m */; };
+		EB76433E1A9CAD650013CDB8 /* SingleDigitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB76433C1A9CAD650013CDB8 /* SingleDigitViewController.xib */; };
+		EB7643401A9CADBB0013CDB8 /* blackboard.png in Resources */ = {isa = PBXBuildFile; fileRef = EB76433F1A9CADBB0013CDB8 /* blackboard.png */; };
+		EB7643421A9CB5230013CDB8 /* curtain.png in Resources */ = {isa = PBXBuildFile; fileRef = EB7643411A9CB5230013CDB8 /* curtain.png */; };
+		EB8546BF1AB1F63B00479BD1 /* QuizTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8546BD1AB1F63B00479BD1 /* QuizTwoViewController.m */; };
+		EB8546C01AB1F63B00479BD1 /* QuizTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB8546BE1AB1F63B00479BD1 /* QuizTwoViewController.xib */; };
+		EB8546C51AB1F8C200479BD1 /* QuizThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8546C31AB1F8C200479BD1 /* QuizThreeViewController.m */; };
+		EB8546C61AB1F8C200479BD1 /* QuizThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB8546C41AB1F8C200479BD1 /* QuizThreeViewController.xib */; };
+		EB8546CB1AB1FA4C00479BD1 /* QuizFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8546C91AB1FA4C00479BD1 /* QuizFourViewController.m */; };
+		EB8546CC1AB1FA4C00479BD1 /* QuizFourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB8546CA1AB1FA4C00479BD1 /* QuizFourViewController.xib */; };
+		EB8546D11AB1FBC300479BD1 /* QuizFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8546CF1AB1FBC300479BD1 /* QuizFiveViewController.m */; };
+		EB8546D21AB1FBC300479BD1 /* QuizFiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB8546D01AB1FBC300479BD1 /* QuizFiveViewController.xib */; };
+		EB8546D71AB1FD7E00479BD1 /* QuizSixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8546D51AB1FD7E00479BD1 /* QuizSixViewController.m */; };
+		EB8546D81AB1FD7E00479BD1 /* QuizSixViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB8546D61AB1FD7E00479BD1 /* QuizSixViewController.xib */; };
+		EB8546DD1AB1FF2F00479BD1 /* QuizSevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8546DB1AB1FF2F00479BD1 /* QuizSevenViewController.m */; };
+		EB8546DE1AB1FF2F00479BD1 /* QuizSevenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB8546DC1AB1FF2F00479BD1 /* QuizSevenViewController.xib */; };
+		EB8546E31AB2035300479BD1 /* QuizEightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8546E11AB2035300479BD1 /* QuizEightViewController.m */; };
+		EB8546E41AB2035300479BD1 /* QuizEightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB8546E21AB2035300479BD1 /* QuizEightViewController.xib */; };
+		EB8546E91AB2097800479BD1 /* QuizTenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8546E71AB2097800479BD1 /* QuizTenViewController.m */; };
+		EB8546EA1AB2097800479BD1 /* QuizTenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB8546E81AB2097800479BD1 /* QuizTenViewController.xib */; };
+		EB8546EF1AB20A1100479BD1 /* QuizNineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8546ED1AB20A1100479BD1 /* QuizNineViewController.m */; };
+		EB8546F01AB20A1100479BD1 /* QuizNineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB8546EE1AB20A1100479BD1 /* QuizNineViewController.xib */; };
+		EB8546F51AB20D7E00479BD1 /* QuizElevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8546F31AB20D7E00479BD1 /* QuizElevenViewController.m */; };
+		EB8546F61AB20D7E00479BD1 /* QuizElevenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB8546F41AB20D7E00479BD1 /* QuizElevenViewController.xib */; };
+		EB8546FB1AB2188B00479BD1 /* QuizTwelveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8546F91AB2188B00479BD1 /* QuizTwelveViewController.m */; };
+		EB8546FC1AB2188B00479BD1 /* QuizTwelveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB8546FA1AB2188B00479BD1 /* QuizTwelveViewController.xib */; };
+		EB8547011AB21E0600479BD1 /* QuizThirteenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8546FF1AB21E0600479BD1 /* QuizThirteenViewController.m */; };
+		EB8547021AB21E0600479BD1 /* QuizThirteenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB8547001AB21E0600479BD1 /* QuizThirteenViewController.xib */; };
+		EB8547071AB21FD700479BD1 /* QuizFourteenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8547051AB21FD700479BD1 /* QuizFourteenViewController.m */; };
+		EB8547081AB21FD700479BD1 /* QuizFourteenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB8547061AB21FD700479BD1 /* QuizFourteenViewController.xib */; };
+		EB85470D1AB2216000479BD1 /* QuizFifteenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB85470B1AB2216000479BD1 /* QuizFifteenViewController.m */; };
+		EB85470E1AB2216000479BD1 /* QuizFifteenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB85470C1AB2216000479BD1 /* QuizFifteenViewController.xib */; };
+		EB8C74591AA6F6F500080328 /* MultiDigitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C74571AA6F6F500080328 /* MultiDigitViewController.m */; };
+		EB8C745A1AA6F6F500080328 /* MultiDigitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB8C74581AA6F6F500080328 /* MultiDigitViewController.xib */; };
+		EB8C745C1AA701E600080328 /* multi_book.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8C745B1AA701E600080328 /* multi_book.png */; };
+		EB8C77911AA8527800080328 /* backBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8C77901AA8527800080328 /* backBtn.png */; };
+		EB8CDF4E1A9F18E600EF4926 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8CDF4D1A9F18E600EF4926 /* button.png */; };
+		EB8CDF501A9F214D00EF4926 /* blackboard_1.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8CDF4F1A9F214D00EF4926 /* blackboard_1.png */; };
+		EB8CDF521A9F229800EF4926 /* twitter_question_mark.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8CDF511A9F229800EF4926 /* twitter_question_mark.png */; };
+		EB8CDF541A9F244F00EF4926 /* board_pooh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB8CDF531A9F244F00EF4926 /* board_pooh.jpg */; };
+		EB8CDF561A9FB26000EF4926 /* single_book.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8CDF551A9FB26000EF4926 /* single_book.png */; };
+		EB8CDF661A9FB55700EF4926 /* num_0.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8CDF581A9FB55700EF4926 /* num_0.png */; };
+		EB8CDF671A9FB55700EF4926 /* num_1.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8CDF591A9FB55700EF4926 /* num_1.png */; };
+		EB8CDF681A9FB55700EF4926 /* num_2.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8CDF5A1A9FB55700EF4926 /* num_2.png */; };
+		EB8CDF691A9FB55700EF4926 /* num_3.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8CDF5B1A9FB55700EF4926 /* num_3.png */; };
+		EB8CDF6A1A9FB55700EF4926 /* num_4.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8CDF5C1A9FB55700EF4926 /* num_4.png */; };
+		EB8CDF6B1A9FB55700EF4926 /* num_5.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8CDF5D1A9FB55700EF4926 /* num_5.png */; };
+		EB8CDF6C1A9FB55700EF4926 /* num_6.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8CDF5E1A9FB55700EF4926 /* num_6.png */; };
+		EB8CDF6D1A9FB55700EF4926 /* num_7.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8CDF5F1A9FB55700EF4926 /* num_7.png */; };
+		EB8CDF6E1A9FB55700EF4926 /* num_8.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8CDF601A9FB55700EF4926 /* num_8.png */; };
+		EB8CDF6F1A9FB55700EF4926 /* num_9.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8CDF611A9FB55700EF4926 /* num_9.png */; };
+		EB8CDF701A9FB55700EF4926 /* num_divide.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8CDF621A9FB55700EF4926 /* num_divide.png */; };
+		EB8CDF711A9FB55700EF4926 /* num_minus.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8CDF631A9FB55700EF4926 /* num_minus.png */; };
+		EB8CDF721A9FB55700EF4926 /* num_multi.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8CDF641A9FB55700EF4926 /* num_multi.png */; };
+		EB8CDF731A9FB55700EF4926 /* num_plus.png in Resources */ = {isa = PBXBuildFile; fileRef = EB8CDF651A9FB55700EF4926 /* num_plus.png */; };
+		EBB614D61AAF5EB100AB1816 /* QuizOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB614D41AAF5EB100AB1816 /* QuizOneViewController.m */; };
+		EBB614D71AAF5EB100AB1816 /* QuizOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBB614D51AAF5EB100AB1816 /* QuizOneViewController.xib */; };
+		EBB614D91AAF60CF00AB1816 /* life.png in Resources */ = {isa = PBXBuildFile; fileRef = EBB614D81AAF60CF00AB1816 /* life.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		EB7642F21A9C1EEC0013CDB8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EB7642D01A9C1EEC0013CDB8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EB7642D71A9C1EEC0013CDB8;
-			remoteInfo = Kids;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		84A889281ADB6C8C00E36C2D /* correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = correct.wav; path = Music/correct.wav; sourceTree = SOURCE_ROOT; };
+		84A889291ADB6C8C00E36C2D /* didit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = didit.mp3; path = Music/didit.mp3; sourceTree = SOURCE_ROOT; };
+		84A8892A1ADB6C8C00E36C2D /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = wrong.mp3; path = Music/wrong.mp3; sourceTree = SOURCE_ROOT; };
+		84A8892B1ADB6C8C00E36C2D /* yes!.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "yes!.wav"; path = "Music/yes!.wav"; sourceTree = SOURCE_ROOT; };
+		84A889301ADB6D3C00E36C2D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84A889321ADB6D4200E36C2D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		84A889341ADB6D4600E36C2D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		EB7642D81A9C1EEC0013CDB8 /* Kids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7642DC1A9C1EEC0013CDB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB7642DD1A9C1EEC0013CDB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,9 +122,111 @@
 		EB7642E61A9C1EEC0013CDB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB7642E81A9C1EEC0013CDB8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EB7642EB1A9C1EEC0013CDB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		EB7642F11A9C1EEC0013CDB8 /* KidsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KidsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7642F61A9C1EED0013CDB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB7642F71A9C1EED0013CDB8 /* KidsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KidsTests.m; sourceTree = "<group>"; };
+		EB7643021A9C1F220013CDB8 /* MainScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreenViewController.h; sourceTree = "<group>"; };
+		EB7643031A9C1F220013CDB8 /* MainScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreenViewController.m; sourceTree = "<group>"; };
+		EB7643041A9C1F220013CDB8 /* MainScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainScreenViewController.xib; sourceTree = "<group>"; };
+		EB7643081A9C1FE40013CDB8 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = Images/background.png; sourceTree = SOURCE_ROOT; };
+		EB76430A1A9C1FF00013CDB8 /* AppConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		EB76430B1A9C23BF0013CDB8 /* pooh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pooh.png; path = Images/pooh.png; sourceTree = SOURCE_ROOT; };
+		EB76430D1A9C243C0013CDB8 /* donkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = donkey.png; path = Images/donkey.png; sourceTree = SOURCE_ROOT; };
+		EB76430F1A9C28BC0013CDB8 /* inputName.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = inputName.png; path = Images/inputName.png; sourceTree = SOURCE_ROOT; };
+		EB7643111A9C61A90013CDB8 /* ok_one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ok_one.png; path = Images/ok_one.png; sourceTree = SOURCE_ROOT; };
+		EB7643131A9C625A0013CDB8 /* ok_two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ok_two.png; path = Images/ok_two.png; sourceTree = SOURCE_ROOT; };
+		EB7643161A9C6B1E0013CDB8 /* MainSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainSelectViewController.h; sourceTree = "<group>"; };
+		EB7643171A9C6B1E0013CDB8 /* MainSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainSelectViewController.m; sourceTree = "<group>"; };
+		EB7643181A9C6B1E0013CDB8 /* MainSelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainSelectViewController.xib; sourceTree = "<group>"; };
+		EB76431B1A9C702C0013CDB8 /* back_pooh_two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back_pooh_two.png; path = Images/back_pooh_two.png; sourceTree = SOURCE_ROOT; };
+		EB76431C1A9C702C0013CDB8 /* back_pooh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back_pooh.png; path = Images/back_pooh.png; sourceTree = SOURCE_ROOT; };
+		EB76431F1A9C82630013CDB8 /* learnBtn_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = learnBtn_white.png; path = Images/learnBtn_white.png; sourceTree = SOURCE_ROOT; };
+		EB7643211A9C84150013CDB8 /* learnBtn_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = learnBtn_gray.png; path = Images/learnBtn_gray.png; sourceTree = SOURCE_ROOT; };
+		EB7643231A9C84E80013CDB8 /* quizBtn_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = quizBtn_gray.png; path = Images/quizBtn_gray.png; sourceTree = SOURCE_ROOT; };
+		EB7643241A9C84E80013CDB8 /* quizBtn_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = quizBtn_white.png; path = Images/quizBtn_white.png; sourceTree = SOURCE_ROOT; };
+		EB7643281A9C86E00013CDB8 /* LearnSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnSelectViewController.h; sourceTree = "<group>"; };
+		EB7643291A9C86E00013CDB8 /* LearnSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearnSelectViewController.m; sourceTree = "<group>"; };
+		EB76432A1A9C86E00013CDB8 /* LearnSelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LearnSelectViewController.xib; sourceTree = "<group>"; };
+		EB76432D1A9C89730013CDB8 /* learn_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = learn_title.png; path = Images/learn_title.png; sourceTree = SOURCE_ROOT; };
+		EB76432F1A9CA3ED0013CDB8 /* multiDigit_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = multiDigit_gray.png; path = Images/multiDigit_gray.png; sourceTree = SOURCE_ROOT; };
+		EB7643301A9CA3ED0013CDB8 /* mutilDigit_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mutilDigit_white.png; path = Images/mutilDigit_white.png; sourceTree = SOURCE_ROOT; };
+		EB7643311A9CA3ED0013CDB8 /* quiz_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = quiz_title.png; path = Images/quiz_title.png; sourceTree = SOURCE_ROOT; };
+		EB7643321A9CA3ED0013CDB8 /* singleDigit_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = singleDigit_gray.png; path = Images/singleDigit_gray.png; sourceTree = SOURCE_ROOT; };
+		EB7643331A9CA3ED0013CDB8 /* singleDigit_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = singleDigit_white.png; path = Images/singleDigit_white.png; sourceTree = SOURCE_ROOT; };
+		EB76433A1A9CAD650013CDB8 /* SingleDigitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleDigitViewController.h; sourceTree = "<group>"; };
+		EB76433B1A9CAD650013CDB8 /* SingleDigitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleDigitViewController.m; sourceTree = "<group>"; };
+		EB76433C1A9CAD650013CDB8 /* SingleDigitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleDigitViewController.xib; sourceTree = "<group>"; };
+		EB76433F1A9CADBB0013CDB8 /* blackboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackboard.png; path = Images/blackboard.png; sourceTree = SOURCE_ROOT; };
+		EB7643411A9CB5230013CDB8 /* curtain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = curtain.png; path = Images/curtain.png; sourceTree = SOURCE_ROOT; };
+		EB8546BC1AB1F63B00479BD1 /* QuizTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizTwoViewController.h; sourceTree = "<group>"; };
+		EB8546BD1AB1F63B00479BD1 /* QuizTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizTwoViewController.m; sourceTree = "<group>"; };
+		EB8546BE1AB1F63B00479BD1 /* QuizTwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizTwoViewController.xib; sourceTree = "<group>"; };
+		EB8546C21AB1F8C200479BD1 /* QuizThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizThreeViewController.h; sourceTree = "<group>"; };
+		EB8546C31AB1F8C200479BD1 /* QuizThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizThreeViewController.m; sourceTree = "<group>"; };
+		EB8546C41AB1F8C200479BD1 /* QuizThreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizThreeViewController.xib; sourceTree = "<group>"; };
+		EB8546C81AB1FA4C00479BD1 /* QuizFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizFourViewController.h; sourceTree = "<group>"; };
+		EB8546C91AB1FA4C00479BD1 /* QuizFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizFourViewController.m; sourceTree = "<group>"; };
+		EB8546CA1AB1FA4C00479BD1 /* QuizFourViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizFourViewController.xib; sourceTree = "<group>"; };
+		EB8546CE1AB1FBC300479BD1 /* QuizFiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizFiveViewController.h; sourceTree = "<group>"; };
+		EB8546CF1AB1FBC300479BD1 /* QuizFiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizFiveViewController.m; sourceTree = "<group>"; };
+		EB8546D01AB1FBC300479BD1 /* QuizFiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizFiveViewController.xib; sourceTree = "<group>"; };
+		EB8546D41AB1FD7E00479BD1 /* QuizSixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizSixViewController.h; sourceTree = "<group>"; };
+		EB8546D51AB1FD7E00479BD1 /* QuizSixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizSixViewController.m; sourceTree = "<group>"; };
+		EB8546D61AB1FD7E00479BD1 /* QuizSixViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizSixViewController.xib; sourceTree = "<group>"; };
+		EB8546DA1AB1FF2F00479BD1 /* QuizSevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizSevenViewController.h; sourceTree = "<group>"; };
+		EB8546DB1AB1FF2F00479BD1 /* QuizSevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizSevenViewController.m; sourceTree = "<group>"; };
+		EB8546DC1AB1FF2F00479BD1 /* QuizSevenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizSevenViewController.xib; sourceTree = "<group>"; };
+		EB8546E01AB2035300479BD1 /* QuizEightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizEightViewController.h; sourceTree = "<group>"; };
+		EB8546E11AB2035300479BD1 /* QuizEightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizEightViewController.m; sourceTree = "<group>"; };
+		EB8546E21AB2035300479BD1 /* QuizEightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizEightViewController.xib; sourceTree = "<group>"; };
+		EB8546E61AB2097800479BD1 /* QuizTenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizTenViewController.h; sourceTree = "<group>"; };
+		EB8546E71AB2097800479BD1 /* QuizTenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizTenViewController.m; sourceTree = "<group>"; };
+		EB8546E81AB2097800479BD1 /* QuizTenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizTenViewController.xib; sourceTree = "<group>"; };
+		EB8546EC1AB20A1100479BD1 /* QuizNineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizNineViewController.h; sourceTree = "<group>"; };
+		EB8546ED1AB20A1100479BD1 /* QuizNineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizNineViewController.m; sourceTree = "<group>"; };
+		EB8546EE1AB20A1100479BD1 /* QuizNineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizNineViewController.xib; sourceTree = "<group>"; };
+		EB8546F21AB20D7E00479BD1 /* QuizElevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizElevenViewController.h; sourceTree = "<group>"; };
+		EB8546F31AB20D7E00479BD1 /* QuizElevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizElevenViewController.m; sourceTree = "<group>"; };
+		EB8546F41AB20D7E00479BD1 /* QuizElevenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizElevenViewController.xib; sourceTree = "<group>"; };
+		EB8546F81AB2188B00479BD1 /* QuizTwelveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizTwelveViewController.h; sourceTree = "<group>"; };
+		EB8546F91AB2188B00479BD1 /* QuizTwelveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizTwelveViewController.m; sourceTree = "<group>"; };
+		EB8546FA1AB2188B00479BD1 /* QuizTwelveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizTwelveViewController.xib; sourceTree = "<group>"; };
+		EB8546FE1AB21E0600479BD1 /* QuizThirteenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizThirteenViewController.h; sourceTree = "<group>"; };
+		EB8546FF1AB21E0600479BD1 /* QuizThirteenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizThirteenViewController.m; sourceTree = "<group>"; };
+		EB8547001AB21E0600479BD1 /* QuizThirteenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizThirteenViewController.xib; sourceTree = "<group>"; };
+		EB8547041AB21FD700479BD1 /* QuizFourteenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizFourteenViewController.h; sourceTree = "<group>"; };
+		EB8547051AB21FD700479BD1 /* QuizFourteenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizFourteenViewController.m; sourceTree = "<group>"; };
+		EB8547061AB21FD700479BD1 /* QuizFourteenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizFourteenViewController.xib; sourceTree = "<group>"; };
+		EB85470A1AB2216000479BD1 /* QuizFifteenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizFifteenViewController.h; sourceTree = "<group>"; };
+		EB85470B1AB2216000479BD1 /* QuizFifteenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizFifteenViewController.m; sourceTree = "<group>"; };
+		EB85470C1AB2216000479BD1 /* QuizFifteenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizFifteenViewController.xib; sourceTree = "<group>"; };
+		EB8C74561AA6F6F500080328 /* MultiDigitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiDigitViewController.h; sourceTree = "<group>"; };
+		EB8C74571AA6F6F500080328 /* MultiDigitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiDigitViewController.m; sourceTree = "<group>"; };
+		EB8C74581AA6F6F500080328 /* MultiDigitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultiDigitViewController.xib; sourceTree = "<group>"; };
+		EB8C745B1AA701E600080328 /* multi_book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = multi_book.png; path = Images/multi_book.png; sourceTree = SOURCE_ROOT; };
+		EB8C77901AA8527800080328 /* backBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backBtn.png; path = Images/backBtn.png; sourceTree = SOURCE_ROOT; };
+		EB8CDF4D1A9F18E600EF4926 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = Images/button.png; sourceTree = SOURCE_ROOT; };
+		EB8CDF4F1A9F214D00EF4926 /* blackboard_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackboard_1.png; path = Images/blackboard_1.png; sourceTree = SOURCE_ROOT; };
+		EB8CDF511A9F229800EF4926 /* twitter_question_mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter_question_mark.png; path = Images/twitter_question_mark.png; sourceTree = SOURCE_ROOT; };
+		EB8CDF531A9F244F00EF4926 /* board_pooh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = board_pooh.jpg; path = Images/board_pooh.jpg; sourceTree = SOURCE_ROOT; };
+		EB8CDF551A9FB26000EF4926 /* single_book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = single_book.png; path = Images/single_book.png; sourceTree = SOURCE_ROOT; };
+		EB8CDF581A9FB55700EF4926 /* num_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num_0.png; path = Images/num_0.png; sourceTree = SOURCE_ROOT; };
+		EB8CDF591A9FB55700EF4926 /* num_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num_1.png; path = Images/num_1.png; sourceTree = SOURCE_ROOT; };
+		EB8CDF5A1A9FB55700EF4926 /* num_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num_2.png; path = Images/num_2.png; sourceTree = SOURCE_ROOT; };
+		EB8CDF5B1A9FB55700EF4926 /* num_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num_3.png; path = Images/num_3.png; sourceTree = SOURCE_ROOT; };
+		EB8CDF5C1A9FB55700EF4926 /* num_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num_4.png; path = Images/num_4.png; sourceTree = SOURCE_ROOT; };
+		EB8CDF5D1A9FB55700EF4926 /* num_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num_5.png; path = Images/num_5.png; sourceTree = SOURCE_ROOT; };
+		EB8CDF5E1A9FB55700EF4926 /* num_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num_6.png; path = Images/num_6.png; sourceTree = SOURCE_ROOT; };
+		EB8CDF5F1A9FB55700EF4926 /* num_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num_7.png; path = Images/num_7.png; sourceTree = SOURCE_ROOT; };
+		EB8CDF601A9FB55700EF4926 /* num_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num_8.png; path = Images/num_8.png; sourceTree = SOURCE_ROOT; };
+		EB8CDF611A9FB55700EF4926 /* num_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num_9.png; path = Images/num_9.png; sourceTree = SOURCE_ROOT; };
+		EB8CDF621A9FB55700EF4926 /* num_divide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num_divide.png; path = Images/num_divide.png; sourceTree = SOURCE_ROOT; };
+		EB8CDF631A9FB55700EF4926 /* num_minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num_minus.png; path = Images/num_minus.png; sourceTree = SOURCE_ROOT; };
+		EB8CDF641A9FB55700EF4926 /* num_multi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num_multi.png; path = Images/num_multi.png; sourceTree = SOURCE_ROOT; };
+		EB8CDF651A9FB55700EF4926 /* num_plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = num_plus.png; path = Images/num_plus.png; sourceTree = SOURCE_ROOT; };
+		EBB614D31AAF5EB100AB1816 /* QuizOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizOneViewController.h; sourceTree = "<group>"; };
+		EBB614D41AAF5EB100AB1816 /* QuizOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizOneViewController.m; sourceTree = "<group>"; };
+		EBB614D51AAF5EB100AB1816 /* QuizOneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizOneViewController.xib; sourceTree = "<group>"; };
+		EBB614D81AAF60CF00AB1816 /* life.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = life.png; path = Images/life.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,22 +234,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EB7642EE1A9C1EEC0013CDB8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				84A889351ADB6D4600E36C2D /* AudioToolbox.framework in Frameworks */,
+				84A889331ADB6D4200E36C2D /* AVFoundation.framework in Frameworks */,
+				84A889311ADB6D3C00E36C2D /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84A889271ADB6C8100E36C2D /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				84A889281ADB6C8C00E36C2D /* correct.wav */,
+				84A889291ADB6C8C00E36C2D /* didit.mp3 */,
+				84A8892A1ADB6C8C00E36C2D /* wrong.mp3 */,
+				84A8892B1ADB6C8C00E36C2D /* yes!.wav */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
 		EB7642CF1A9C1EEC0013CDB8 = {
 			isa = PBXGroup;
 			children = (
+				84A889341ADB6D4600E36C2D /* AudioToolbox.framework */,
+				84A889321ADB6D4200E36C2D /* AVFoundation.framework */,
+				84A889301ADB6D3C00E36C2D /* UIKit.framework */,
 				EB7642DA1A9C1EEC0013CDB8 /* Kids */,
 				EB7642F41A9C1EED0013CDB8 /* KidsTests */,
 				EB7642D91A9C1EEC0013CDB8 /* Products */,
@@ -73,7 +270,6 @@
 			isa = PBXGroup;
 			children = (
 				EB7642D81A9C1EEC0013CDB8 /* Kids.app */,
-				EB7642F11A9C1EEC0013CDB8 /* KidsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,8 +277,31 @@
 		EB7642DA1A9C1EEC0013CDB8 /* Kids */ = {
 			isa = PBXGroup;
 			children = (
+				84A889271ADB6C8100E36C2D /* Music */,
+				EB8547091AB2214A00479BD1 /* QuizFifteen */,
+				EB8547031AB21FB600479BD1 /* QuizFourteen */,
+				EB8546FD1AB21DD100479BD1 /* QuizThirteen */,
+				EB8546F71AB2182B00479BD1 /* QuizTwelve */,
+				EB8546F11AB20D6B00479BD1 /* QuizEleven */,
+				EB8546E51AB2096900479BD1 /* QuizTen */,
+				EB8546EB1AB209CA00479BD1 /* QuizNine */,
+				EB8546DF1AB2034300479BD1 /* QuizEight */,
+				EB8546D91AB1FF1C00479BD1 /* QuizSeven */,
+				EB8546D31AB1FD6F00479BD1 /* QuizSix */,
+				EB8546CD1AB1FBA800479BD1 /* QuizFive */,
+				EB8546C71AB1FA3D00479BD1 /* QuizFour */,
+				EB8546C11AB1F8AC00479BD1 /* QuizThree */,
+				EB8546BB1AB1F61B00479BD1 /* QuizTwo */,
+				EBB614D21AAF5E9600AB1816 /* QuizOne */,
+				EB8C74551AA6F6DB00080328 /* MultiDigit */,
+				EB7643391A9CAD550013CDB8 /* SingleDigit */,
+				EB7643271A9C86C50013CDB8 /* LearnSelect */,
+				EB7643151A9C6B0A0013CDB8 /* MainSelect */,
+				EB7643071A9C1FDB0013CDB8 /* Images */,
+				EB7643011A9C1F140013CDB8 /* MainScreen */,
 				EB7642DF1A9C1EEC0013CDB8 /* AppDelegate.h */,
 				EB7642E01A9C1EEC0013CDB8 /* AppDelegate.m */,
+				EB76430A1A9C1FF00013CDB8 /* AppConstants.h */,
 				EB7642E21A9C1EEC0013CDB8 /* ViewController.h */,
 				EB7642E31A9C1EEC0013CDB8 /* ViewController.m */,
 				EB7642E51A9C1EEC0013CDB8 /* Main.storyboard */,
@@ -119,6 +338,263 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EB7643011A9C1F140013CDB8 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EB7643021A9C1F220013CDB8 /* MainScreenViewController.h */,
+				EB7643031A9C1F220013CDB8 /* MainScreenViewController.m */,
+				EB7643041A9C1F220013CDB8 /* MainScreenViewController.xib */,
+			);
+			name = MainScreen;
+			sourceTree = "<group>";
+		};
+		EB7643071A9C1FDB0013CDB8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EBB614D81AAF60CF00AB1816 /* life.png */,
+				EB8C77901AA8527800080328 /* backBtn.png */,
+				EB8CDF571A9FB54B00EF4926 /* Number */,
+				EB8CDF551A9FB26000EF4926 /* single_book.png */,
+				EB8CDF531A9F244F00EF4926 /* board_pooh.jpg */,
+				EB8CDF511A9F229800EF4926 /* twitter_question_mark.png */,
+				EB8CDF4F1A9F214D00EF4926 /* blackboard_1.png */,
+				EB8CDF4D1A9F18E600EF4926 /* button.png */,
+				EB7643411A9CB5230013CDB8 /* curtain.png */,
+				EB76433F1A9CADBB0013CDB8 /* blackboard.png */,
+				EB76432F1A9CA3ED0013CDB8 /* multiDigit_gray.png */,
+				EB7643301A9CA3ED0013CDB8 /* mutilDigit_white.png */,
+				EB7643311A9CA3ED0013CDB8 /* quiz_title.png */,
+				EB7643321A9CA3ED0013CDB8 /* singleDigit_gray.png */,
+				EB7643331A9CA3ED0013CDB8 /* singleDigit_white.png */,
+				EB76432D1A9C89730013CDB8 /* learn_title.png */,
+				EB7643231A9C84E80013CDB8 /* quizBtn_gray.png */,
+				EB7643241A9C84E80013CDB8 /* quizBtn_white.png */,
+				EB7643211A9C84150013CDB8 /* learnBtn_gray.png */,
+				EB76431F1A9C82630013CDB8 /* learnBtn_white.png */,
+				EB76431B1A9C702C0013CDB8 /* back_pooh_two.png */,
+				EB76431C1A9C702C0013CDB8 /* back_pooh.png */,
+				EB7643131A9C625A0013CDB8 /* ok_two.png */,
+				EB7643111A9C61A90013CDB8 /* ok_one.png */,
+				EB76430F1A9C28BC0013CDB8 /* inputName.png */,
+				EB76430D1A9C243C0013CDB8 /* donkey.png */,
+				EB76430B1A9C23BF0013CDB8 /* pooh.png */,
+				EB7643081A9C1FE40013CDB8 /* background.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		EB7643151A9C6B0A0013CDB8 /* MainSelect */ = {
+			isa = PBXGroup;
+			children = (
+				EB7643161A9C6B1E0013CDB8 /* MainSelectViewController.h */,
+				EB7643171A9C6B1E0013CDB8 /* MainSelectViewController.m */,
+				EB7643181A9C6B1E0013CDB8 /* MainSelectViewController.xib */,
+			);
+			name = MainSelect;
+			sourceTree = "<group>";
+		};
+		EB7643271A9C86C50013CDB8 /* LearnSelect */ = {
+			isa = PBXGroup;
+			children = (
+				EB7643281A9C86E00013CDB8 /* LearnSelectViewController.h */,
+				EB7643291A9C86E00013CDB8 /* LearnSelectViewController.m */,
+				EB76432A1A9C86E00013CDB8 /* LearnSelectViewController.xib */,
+			);
+			name = LearnSelect;
+			sourceTree = "<group>";
+		};
+		EB7643391A9CAD550013CDB8 /* SingleDigit */ = {
+			isa = PBXGroup;
+			children = (
+				EB76433A1A9CAD650013CDB8 /* SingleDigitViewController.h */,
+				EB76433B1A9CAD650013CDB8 /* SingleDigitViewController.m */,
+				EB76433C1A9CAD650013CDB8 /* SingleDigitViewController.xib */,
+			);
+			name = SingleDigit;
+			sourceTree = "<group>";
+		};
+		EB8546BB1AB1F61B00479BD1 /* QuizTwo */ = {
+			isa = PBXGroup;
+			children = (
+				EB8546BC1AB1F63B00479BD1 /* QuizTwoViewController.h */,
+				EB8546BD1AB1F63B00479BD1 /* QuizTwoViewController.m */,
+				EB8546BE1AB1F63B00479BD1 /* QuizTwoViewController.xib */,
+			);
+			name = QuizTwo;
+			sourceTree = "<group>";
+		};
+		EB8546C11AB1F8AC00479BD1 /* QuizThree */ = {
+			isa = PBXGroup;
+			children = (
+				EB8546C21AB1F8C200479BD1 /* QuizThreeViewController.h */,
+				EB8546C31AB1F8C200479BD1 /* QuizThreeViewController.m */,
+				EB8546C41AB1F8C200479BD1 /* QuizThreeViewController.xib */,
+			);
+			name = QuizThree;
+			sourceTree = "<group>";
+		};
+		EB8546C71AB1FA3D00479BD1 /* QuizFour */ = {
+			isa = PBXGroup;
+			children = (
+				EB8546C81AB1FA4C00479BD1 /* QuizFourViewController.h */,
+				EB8546C91AB1FA4C00479BD1 /* QuizFourViewController.m */,
+				EB8546CA1AB1FA4C00479BD1 /* QuizFourViewController.xib */,
+			);
+			name = QuizFour;
+			sourceTree = "<group>";
+		};
+		EB8546CD1AB1FBA800479BD1 /* QuizFive */ = {
+			isa = PBXGroup;
+			children = (
+				EB8546CE1AB1FBC300479BD1 /* QuizFiveViewController.h */,
+				EB8546CF1AB1FBC300479BD1 /* QuizFiveViewController.m */,
+				EB8546D01AB1FBC300479BD1 /* QuizFiveViewController.xib */,
+			);
+			name = QuizFive;
+			sourceTree = "<group>";
+		};
+		EB8546D31AB1FD6F00479BD1 /* QuizSix */ = {
+			isa = PBXGroup;
+			children = (
+				EB8546D41AB1FD7E00479BD1 /* QuizSixViewController.h */,
+				EB8546D51AB1FD7E00479BD1 /* QuizSixViewController.m */,
+				EB8546D61AB1FD7E00479BD1 /* QuizSixViewController.xib */,
+			);
+			name = QuizSix;
+			sourceTree = "<group>";
+		};
+		EB8546D91AB1FF1C00479BD1 /* QuizSeven */ = {
+			isa = PBXGroup;
+			children = (
+				EB8546DA1AB1FF2F00479BD1 /* QuizSevenViewController.h */,
+				EB8546DB1AB1FF2F00479BD1 /* QuizSevenViewController.m */,
+				EB8546DC1AB1FF2F00479BD1 /* QuizSevenViewController.xib */,
+			);
+			name = QuizSeven;
+			sourceTree = "<group>";
+		};
+		EB8546DF1AB2034300479BD1 /* QuizEight */ = {
+			isa = PBXGroup;
+			children = (
+				EB8546E01AB2035300479BD1 /* QuizEightViewController.h */,
+				EB8546E11AB2035300479BD1 /* QuizEightViewController.m */,
+				EB8546E21AB2035300479BD1 /* QuizEightViewController.xib */,
+			);
+			name = QuizEight;
+			sourceTree = "<group>";
+		};
+		EB8546E51AB2096900479BD1 /* QuizTen */ = {
+			isa = PBXGroup;
+			children = (
+				EB8546E61AB2097800479BD1 /* QuizTenViewController.h */,
+				EB8546E71AB2097800479BD1 /* QuizTenViewController.m */,
+				EB8546E81AB2097800479BD1 /* QuizTenViewController.xib */,
+			);
+			name = QuizTen;
+			sourceTree = "<group>";
+		};
+		EB8546EB1AB209CA00479BD1 /* QuizNine */ = {
+			isa = PBXGroup;
+			children = (
+				EB8546EC1AB20A1100479BD1 /* QuizNineViewController.h */,
+				EB8546ED1AB20A1100479BD1 /* QuizNineViewController.m */,
+				EB8546EE1AB20A1100479BD1 /* QuizNineViewController.xib */,
+			);
+			name = QuizNine;
+			sourceTree = "<group>";
+		};
+		EB8546F11AB20D6B00479BD1 /* QuizEleven */ = {
+			isa = PBXGroup;
+			children = (
+				EB8546F21AB20D7E00479BD1 /* QuizElevenViewController.h */,
+				EB8546F31AB20D7E00479BD1 /* QuizElevenViewController.m */,
+				EB8546F41AB20D7E00479BD1 /* QuizElevenViewController.xib */,
+			);
+			name = QuizEleven;
+			sourceTree = "<group>";
+		};
+		EB8546F71AB2182B00479BD1 /* QuizTwelve */ = {
+			isa = PBXGroup;
+			children = (
+				EB8546F81AB2188B00479BD1 /* QuizTwelveViewController.h */,
+				EB8546F91AB2188B00479BD1 /* QuizTwelveViewController.m */,
+				EB8546FA1AB2188B00479BD1 /* QuizTwelveViewController.xib */,
+			);
+			name = QuizTwelve;
+			sourceTree = "<group>";
+		};
+		EB8546FD1AB21DD100479BD1 /* QuizThirteen */ = {
+			isa = PBXGroup;
+			children = (
+				EB8546FE1AB21E0600479BD1 /* QuizThirteenViewController.h */,
+				EB8546FF1AB21E0600479BD1 /* QuizThirteenViewController.m */,
+				EB8547001AB21E0600479BD1 /* QuizThirteenViewController.xib */,
+			);
+			name = QuizThirteen;
+			sourceTree = "<group>";
+		};
+		EB8547031AB21FB600479BD1 /* QuizFourteen */ = {
+			isa = PBXGroup;
+			children = (
+				EB8547041AB21FD700479BD1 /* QuizFourteenViewController.h */,
+				EB8547051AB21FD700479BD1 /* QuizFourteenViewController.m */,
+				EB8547061AB21FD700479BD1 /* QuizFourteenViewController.xib */,
+			);
+			name = QuizFourteen;
+			sourceTree = "<group>";
+		};
+		EB8547091AB2214A00479BD1 /* QuizFifteen */ = {
+			isa = PBXGroup;
+			children = (
+				EB85470A1AB2216000479BD1 /* QuizFifteenViewController.h */,
+				EB85470B1AB2216000479BD1 /* QuizFifteenViewController.m */,
+				EB85470C1AB2216000479BD1 /* QuizFifteenViewController.xib */,
+			);
+			name = QuizFifteen;
+			sourceTree = "<group>";
+		};
+		EB8C74551AA6F6DB00080328 /* MultiDigit */ = {
+			isa = PBXGroup;
+			children = (
+				EB8C74561AA6F6F500080328 /* MultiDigitViewController.h */,
+				EB8C74571AA6F6F500080328 /* MultiDigitViewController.m */,
+				EB8C74581AA6F6F500080328 /* MultiDigitViewController.xib */,
+			);
+			name = MultiDigit;
+			sourceTree = "<group>";
+		};
+		EB8CDF571A9FB54B00EF4926 /* Number */ = {
+			isa = PBXGroup;
+			children = (
+				EB8C745B1AA701E600080328 /* multi_book.png */,
+				EB8CDF581A9FB55700EF4926 /* num_0.png */,
+				EB8CDF591A9FB55700EF4926 /* num_1.png */,
+				EB8CDF5A1A9FB55700EF4926 /* num_2.png */,
+				EB8CDF5B1A9FB55700EF4926 /* num_3.png */,
+				EB8CDF5C1A9FB55700EF4926 /* num_4.png */,
+				EB8CDF5D1A9FB55700EF4926 /* num_5.png */,
+				EB8CDF5E1A9FB55700EF4926 /* num_6.png */,
+				EB8CDF5F1A9FB55700EF4926 /* num_7.png */,
+				EB8CDF601A9FB55700EF4926 /* num_8.png */,
+				EB8CDF611A9FB55700EF4926 /* num_9.png */,
+				EB8CDF621A9FB55700EF4926 /* num_divide.png */,
+				EB8CDF631A9FB55700EF4926 /* num_minus.png */,
+				EB8CDF641A9FB55700EF4926 /* num_multi.png */,
+				EB8CDF651A9FB55700EF4926 /* num_plus.png */,
+			);
+			name = Number;
+			sourceTree = "<group>";
+		};
+		EBB614D21AAF5E9600AB1816 /* QuizOne */ = {
+			isa = PBXGroup;
+			children = (
+				EBB614D31AAF5EB100AB1816 /* QuizOneViewController.h */,
+				EBB614D41AAF5EB100AB1816 /* QuizOneViewController.m */,
+				EBB614D51AAF5EB100AB1816 /* QuizOneViewController.xib */,
+			);
+			name = QuizOne;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,24 +615,6 @@
 			productReference = EB7642D81A9C1EEC0013CDB8 /* Kids.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EB7642F01A9C1EEC0013CDB8 /* KidsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EB7642FE1A9C1EED0013CDB8 /* Build configuration list for PBXNativeTarget "KidsTests" */;
-			buildPhases = (
-				EB7642ED1A9C1EEC0013CDB8 /* Sources */,
-				EB7642EE1A9C1EEC0013CDB8 /* Frameworks */,
-				EB7642EF1A9C1EEC0013CDB8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EB7642F31A9C1EEC0013CDB8 /* PBXTargetDependency */,
-			);
-			name = KidsTests;
-			productName = KidsTests;
-			productReference = EB7642F11A9C1EEC0013CDB8 /* KidsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +626,6 @@
 				TargetAttributes = {
 					EB7642D71A9C1EEC0013CDB8 = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					EB7642F01A9C1EEC0013CDB8 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = EB7642D71A9C1EEC0013CDB8;
 					};
 				};
 			};
@@ -189,7 +643,6 @@
 			projectRoot = "";
 			targets = (
 				EB7642D71A9C1EEC0013CDB8 /* Kids */,
-				EB7642F01A9C1EEC0013CDB8 /* KidsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,16 +652,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8546FC1AB2188B00479BD1 /* QuizTwelveViewController.xib in Resources */,
+				EB8CDF6F1A9FB55700EF4926 /* num_9.png in Resources */,
+				EB8CDF6B1A9FB55700EF4926 /* num_5.png in Resources */,
+				EB8CDF681A9FB55700EF4926 /* num_2.png in Resources */,
+				EB8C745A1AA6F6F500080328 /* MultiDigitViewController.xib in Resources */,
+				EB8546C01AB1F63B00479BD1 /* QuizTwoViewController.xib in Resources */,
+				EB8546F01AB20A1100479BD1 /* QuizNineViewController.xib in Resources */,
+				EB8CDF6A1A9FB55700EF4926 /* num_4.png in Resources */,
 				EB7642E71A9C1EEC0013CDB8 /* Main.storyboard in Resources */,
+				EB8C745C1AA701E600080328 /* multi_book.png in Resources */,
+				EB7643201A9C82630013CDB8 /* learnBtn_white.png in Resources */,
+				EB7643371A9CA3ED0013CDB8 /* singleDigit_gray.png in Resources */,
+				EB7643381A9CA3ED0013CDB8 /* singleDigit_white.png in Resources */,
+				EB7643251A9C84E80013CDB8 /* quizBtn_gray.png in Resources */,
+				EB8CDF701A9FB55700EF4926 /* num_divide.png in Resources */,
+				EB8546F61AB20D7E00479BD1 /* QuizElevenViewController.xib in Resources */,
+				84A8892E1ADB6C8C00E36C2D /* wrong.mp3 in Resources */,
+				EB7643101A9C28BC0013CDB8 /* inputName.png in Resources */,
+				EB8547021AB21E0600479BD1 /* QuizThirteenViewController.xib in Resources */,
+				EB8546D81AB1FD7E00479BD1 /* QuizSixViewController.xib in Resources */,
+				EB7643401A9CADBB0013CDB8 /* blackboard.png in Resources */,
+				EB8CDF6D1A9FB55700EF4926 /* num_7.png in Resources */,
+				EB7643221A9C84150013CDB8 /* learnBtn_gray.png in Resources */,
+				EB7643091A9C1FE40013CDB8 /* background.png in Resources */,
+				EB8CDF6C1A9FB55700EF4926 /* num_6.png in Resources */,
+				EB76431D1A9C702C0013CDB8 /* back_pooh_two.png in Resources */,
+				EB8546EA1AB2097800479BD1 /* QuizTenViewController.xib in Resources */,
+				EB8CDF521A9F229800EF4926 /* twitter_question_mark.png in Resources */,
+				EB8546CC1AB1FA4C00479BD1 /* QuizFourViewController.xib in Resources */,
+				EB7643061A9C1F220013CDB8 /* MainScreenViewController.xib in Resources */,
+				EB8CDF661A9FB55700EF4926 /* num_0.png in Resources */,
+				EB8546D21AB1FBC300479BD1 /* QuizFiveViewController.xib in Resources */,
+				EB85470E1AB2216000479BD1 /* QuizFifteenViewController.xib in Resources */,
+				EBB614D71AAF5EB100AB1816 /* QuizOneViewController.xib in Resources */,
+				EB7643421A9CB5230013CDB8 /* curtain.png in Resources */,
+				EB7643341A9CA3ED0013CDB8 /* multiDigit_gray.png in Resources */,
+				EB8CDF561A9FB26000EF4926 /* single_book.png in Resources */,
 				EB7642EC1A9C1EEC0013CDB8 /* LaunchScreen.xib in Resources */,
+				EB8CDF691A9FB55700EF4926 /* num_3.png in Resources */,
+				EB8546DE1AB1FF2F00479BD1 /* QuizSevenViewController.xib in Resources */,
+				EB8CDF541A9F244F00EF4926 /* board_pooh.jpg in Resources */,
+				EB8CDF721A9FB55700EF4926 /* num_multi.png in Resources */,
+				EB8546E41AB2035300479BD1 /* QuizEightViewController.xib in Resources */,
+				EB7643351A9CA3ED0013CDB8 /* mutilDigit_white.png in Resources */,
+				EB76431E1A9C702C0013CDB8 /* back_pooh.png in Resources */,
+				EB8CDF671A9FB55700EF4926 /* num_1.png in Resources */,
+				EB8CDF501A9F214D00EF4926 /* blackboard_1.png in Resources */,
+				EB76430E1A9C243C0013CDB8 /* donkey.png in Resources */,
+				EB8CDF711A9FB55700EF4926 /* num_minus.png in Resources */,
+				EB8C77911AA8527800080328 /* backBtn.png in Resources */,
+				EB7643361A9CA3ED0013CDB8 /* quiz_title.png in Resources */,
+				84A8892F1ADB6C8C00E36C2D /* yes!.wav in Resources */,
+				EB8546C61AB1F8C200479BD1 /* QuizThreeViewController.xib in Resources */,
+				84A8892D1ADB6C8C00E36C2D /* didit.mp3 in Resources */,
 				EB7642E91A9C1EEC0013CDB8 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EB7642EF1A9C1EEC0013CDB8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				EB76432E1A9C89730013CDB8 /* learn_title.png in Resources */,
+				EB7643261A9C84E80013CDB8 /* quizBtn_white.png in Resources */,
+				EB8CDF6E1A9FB55700EF4926 /* num_8.png in Resources */,
+				EB8CDF4E1A9F18E600EF4926 /* button.png in Resources */,
+				EB76433E1A9CAD650013CDB8 /* SingleDigitViewController.xib in Resources */,
+				EB8CDF731A9FB55700EF4926 /* num_plus.png in Resources */,
+				EB7643121A9C61A90013CDB8 /* ok_one.png in Resources */,
+				84A8892C1ADB6C8C00E36C2D /* correct.wav in Resources */,
+				EB7643141A9C625A0013CDB8 /* ok_two.png in Resources */,
+				EBB614D91AAF60CF00AB1816 /* life.png in Resources */,
+				EB76430C1A9C23BF0013CDB8 /* pooh.png in Resources */,
+				EB76431A1A9C6B1E0013CDB8 /* MainSelectViewController.xib in Resources */,
+				EB76432C1A9C86E00013CDB8 /* LearnSelectViewController.xib in Resources */,
+				EB8547081AB21FD700479BD1 /* QuizFourteenViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,29 +731,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8546BF1AB1F63B00479BD1 /* QuizTwoViewController.m in Sources */,
+				EB8546DD1AB1FF2F00479BD1 /* QuizSevenViewController.m in Sources */,
+				EB8C74591AA6F6F500080328 /* MultiDigitViewController.m in Sources */,
+				EB8547011AB21E0600479BD1 /* QuizThirteenViewController.m in Sources */,
+				EB8546D71AB1FD7E00479BD1 /* QuizSixViewController.m in Sources */,
 				EB7642E41A9C1EEC0013CDB8 /* ViewController.m in Sources */,
+				EB85470D1AB2216000479BD1 /* QuizFifteenViewController.m in Sources */,
+				EB8546D11AB1FBC300479BD1 /* QuizFiveViewController.m in Sources */,
+				EB7643191A9C6B1E0013CDB8 /* MainSelectViewController.m in Sources */,
+				EB7643051A9C1F220013CDB8 /* MainScreenViewController.m in Sources */,
 				EB7642E11A9C1EEC0013CDB8 /* AppDelegate.m in Sources */,
+				EB8546E91AB2097800479BD1 /* QuizTenViewController.m in Sources */,
+				EB8547071AB21FD700479BD1 /* QuizFourteenViewController.m in Sources */,
 				EB7642DE1A9C1EEC0013CDB8 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EB7642ED1A9C1EEC0013CDB8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EB7642F81A9C1EED0013CDB8 /* KidsTests.m in Sources */,
+				EBB614D61AAF5EB100AB1816 /* QuizOneViewController.m in Sources */,
+				EB8546FB1AB2188B00479BD1 /* QuizTwelveViewController.m in Sources */,
+				EB76432B1A9C86E00013CDB8 /* LearnSelectViewController.m in Sources */,
+				EB8546EF1AB20A1100479BD1 /* QuizNineViewController.m in Sources */,
+				EB8546C51AB1F8C200479BD1 /* QuizThreeViewController.m in Sources */,
+				EB8546E31AB2035300479BD1 /* QuizEightViewController.m in Sources */,
+				EB76433D1A9CAD650013CDB8 /* SingleDigitViewController.m in Sources */,
+				EB8546CB1AB1FA4C00479BD1 /* QuizFourViewController.m in Sources */,
+				EB8546F51AB20D7E00479BD1 /* QuizElevenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		EB7642F31A9C1EEC0013CDB8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EB7642D71A9C1EEC0013CDB8 /* Kids */;
-			targetProxy = EB7642F21A9C1EEC0013CDB8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EB7642E51A9C1EEC0013CDB8 /* Main.storyboard */ = {
@@ -348,6 +864,7 @@
 				INFOPLIST_FILE = Kids/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -358,40 +875,7 @@
 				INFOPLIST_FILE = Kids/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		EB7642FF1A9C1EED0013CDB8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = KidsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kids.app/Kids";
-			};
-			name = Debug;
-		};
-		EB7643001A9C1EED0013CDB8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = KidsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kids.app/Kids";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -414,14 +898,7 @@
 				EB7642FD1A9C1EED0013CDB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		EB7642FE1A9C1EED0013CDB8 /* Build configuration list for PBXNativeTarget "KidsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EB7642FF1A9C1EED0013CDB8 /* Debug */,
-				EB7643001A9C1EED0013CDB8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

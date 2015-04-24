@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QuizOneViewController">
+            <connections>
+                <outlet property="firstBtn" destination="t0k-yY-7t9" id="RZh-Yn-gSV"/>
+                <outlet property="fourBtn" destination="6y4-cz-sI2" id="fhQ-Tb-eun"/>
+                <outlet property="lblProblem" destination="NcR-uW-WkP" id="vkh-aL-wSf"/>
+                <outlet property="liveoneImg" destination="iCn-Vh-KYy" id="bG5-YR-x9v"/>
+                <outlet property="livethreeImg" destination="y3K-z4-mFr" id="0gk-7P-U3T"/>
+                <outlet property="livetwoImg" destination="s8H-hi-O1o" id="c1O-uP-WXh"/>
+                <outlet property="secondBtn" destination="bka-Hr-7lv" id="8A2-Qf-MgD"/>
+                <outlet property="thirdBtn" destination="c8V-gd-4Zg" id="JWf-O9-2m2"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blackboard_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="68H-rh-coS">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="771"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="board_pooh.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="YJ4-Ja-SDk">
+                    <rect key="frame" x="5" y="8" width="209" height="122"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="life.png" translatesAutoresizingMaskIntoConstraints="NO" id="s8H-hi-O1o">
+                    <rect key="frame" x="786" y="10" width="46" height="53"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="life.png" translatesAutoresizingMaskIntoConstraints="NO" id="y3K-z4-mFr">
+                    <rect key="frame" x="840" y="10" width="46" height="53"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="life.png" translatesAutoresizingMaskIntoConstraints="NO" id="iCn-Vh-KYy">
+                    <rect key="frame" x="732" y="10" width="46" height="53"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3+6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NcR-uW-WkP">
+                    <rect key="frame" x="335" y="158" width="355" height="83"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="72"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Level 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AYl-7y-xQk">
+                    <rect key="frame" x="434" y="45" width="157" height="66"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="43"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t0k-yY-7t9">
+                    <rect key="frame" x="308" y="382" width="84" height="64"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="72"/>
+                    <state key="normal" title="7">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="checkActionClicked:" destination="-1" eventType="touchUpInside" id="nqB-jA-Pfv"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bka-Hr-7lv">
+                    <rect key="frame" x="410" y="382" width="84" height="64"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="72"/>
+                    <state key="normal" title="8">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="checkActionClicked:" destination="-1" eventType="touchUpInside" id="sHv-km-Xo7"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c8V-gd-4Zg">
+                    <rect key="frame" x="512" y="382" width="84" height="64"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="72"/>
+                    <state key="normal" title="9">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="checkActionClicked:" destination="-1" eventType="touchUpInside" id="nhD-JD-lKv"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6y4-cz-sI2">
+                    <rect key="frame" x="604" y="382" width="84" height="64"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="72"/>
+                    <state key="normal" title="10">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="checkActionClicked:" destination="-1" eventType="touchUpInside" id="CKf-bv-ymR"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+            <point key="canvasLocation" x="741" y="367"/>
+        </view>
+        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="life.png" id="iUe-ZW-RVK">
+            <rect key="frame" x="0.0" y="0.0" width="46" height="53"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+        </imageView>
+    </objects>
+    <resources>
+        <image name="blackboard_1.png" width="1024" height="768"/>
+        <image name="board_pooh.jpg" width="489" height="286"/>
+        <image name="life.png" width="128" height="128"/>
+    </resources>
+</document>
